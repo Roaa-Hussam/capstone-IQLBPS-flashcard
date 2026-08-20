@@ -1,48 +1,61 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/0d63ffdc-b1f2-4a99-8b69-1efc268dcfed/deploy-status)](https://app.netlify.com/sites/flashcard-recoded/deploys)
+# Cardly Learning Website
 
-# Getting Started with Create React App and Redux
+## Overview
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This is a learning website created for the **Re:Coded Front-End Bootcamp** as a capstone project.
 
-## Available Scripts
+The original version was deployed on **Netlify**.
 
-In the project directory, you can run:
+I forked the project repository and deployed my own version on **Vercel** because the Netlify deployment is not accessible from my current network in Egypt. The Vercel deployment allows me to continue demonstrating the project.
 
-### `yarn start`
+## Live Link
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+https://capstone-iqlbps-flashcard.vercel.app/
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `yarn test`
+It is a learning website that helps students learn while having fun. It allows them to create flashcards for any topic, share them with friends, comment on each other's flashcards, and share knowledge.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Technologies & Dependencies
 
-### `yarn build`
+This project was built using:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Frontend
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React**
+- **Tailwind CSS**
+- **Flowbite & Flowbite React**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Forms & Validation
 
-### `yarn eject`
+- **React Hook Form**
+- **Yup**
+- **@hookform/resolvers**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Backend & Services
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **Firebase**
+- **EmailJS**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Development Tools
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **ESLint**
+- **Prettier**
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Getting Started
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Prerequisites
+
+Before running the project, make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (comes with Node.js)
+- Git
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Roaa-Hussam/capstone-IQLBPS-flashcard.git
+```
