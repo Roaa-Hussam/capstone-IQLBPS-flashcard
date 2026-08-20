@@ -49,7 +49,7 @@ This project was built using:
 - **ESLint**
 - **ESLint Airbnb**
 - **Prettier**
-- **PostCSS**
+  
 
 ---
 
